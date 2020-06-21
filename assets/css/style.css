@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: #8aaadc;
+}
+
+h1, h2, h5 {
+    color: #394b60;
+}
+
+.imgTamano {
+    width: 130px;
+    height: 50px;
+}
+
+.imgTamano2 {
+    width: 170px;
+    height: 60px;
+}
+
+.imgTamano3 {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+
+.background {
+    background-image: url('../img/foto.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    margin-top: 5rem;
+    height: 45vh;
+}
+
+.hero-text {
+    height: 50vh;
+}
+
+.btn-header {
+    border-radius: 40px;
+    color: white;
+    background-color: #8aaadc;
+    font-size: 16px;
+}
+
+.experiencia {
+    height: 100vh;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+
+}
+
+.carousel-indicators li .active {
+    background-color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.esconder {
+    display: none;
+}
+
+.carousel-item i {
+    color: #8aaadc;
+}
+
+.icon-color {
+    color: #394b60;
+}
+
+#work {
+    background-color: #8aaadc;
+}
