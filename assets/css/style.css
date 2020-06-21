@@ -82,3 +82,21 @@ h1, h2, h5 {
 #work {
     background-color: #8aaadc;
 }
+
+@media (min-width:992px) {
+    .background, .hero-text {
+        height: 95vh;
+    }
+    .hero-text {
+         padding-top: 40vh;
+    }
+    .esconder {
+        display: inline-block;
+    }
+}
+
+@media (max-width:420px) {
+    .logo-center {
+        text-align: center;
+    }
+}
