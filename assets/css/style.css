@@ -16,8 +16,7 @@ h1, h2, h5 {
 }
 
 .imgTamano2 {
-    width: 170px;
-    height: 60px;
+    width: 25%;
 }
 
 .imgTamano3 {
@@ -98,5 +97,11 @@ h1, h2, h5 {
 @media (max-width:420px) {
     .logo-center {
         text-align: center;
+    }
+    .imgTamano2 {
+        width: 80%;
+    }
+    .texto-header {
+        display: none;
     }
 }
